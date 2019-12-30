@@ -8,7 +8,7 @@ To run the app you need to:
 	<li>make sure all the used modules in run_keras_server.py are installed</li>  
 	<li>change the ip address to the new ip address of your pc in run_keras_server.py</li>
 	<li>python run_keras_server.py</li>
-	<li>open the SEProject3 in android studio and run it.</li>
+	<li>open the project in android studio and run it.</li>
 </ul>
 
 Please note that our version is being uploaded to google play to make the execution easier.
