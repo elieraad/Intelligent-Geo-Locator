@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Geo Locator</string>
+    <string name="choice">Add Image</string>
+    <string name="feedback">Is the provided result correct?</string>
+    <string name="correction">What is this building?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="submit">Submit</string>
+    <string name="is_the_answer_correct">Is the answer correct?</string>
+    <string name="frem_building">Frem Building</string>
+    <string name="zakhem_builing">Zakhem Builing</string>
+    <string name="medical_building">Medical Building</string>
+    <string name="provide_the_correct_answer">Provide the correct answer</string>
+    <string name="done">Done</string>
+    <string name="correct_answer">Correct Answer?</string>
+</resources>

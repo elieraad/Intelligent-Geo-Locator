@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:background="#54B8CE"
+        android:scaleType="centerCrop"
+        android:src="@drawable/defaultimage" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/choice"
+        android:textColor="@color/colorBackground"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/correct_answer" />
+
+    <TextView
+        android:id="@+id/correctionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/provide_the_correct_answer"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/feedbackLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/feedback"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="@string/yes"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/no"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/correction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn"
+        android:padding="15dp"
+        >
+        <RadioButton
+            android:id="@+id/frem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frem_building"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:id="@+id/zakhem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zakhem_builing"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:id="@+id/medical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medical_building"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/done"
+        android:layout_below="@+id/feedbackLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBackground"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
