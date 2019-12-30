@@ -1,5 +1,7 @@
 # Intelligent-Geo-Locator
 This project was developed for the COE416 - Software Engineering
+<br>
+Spring 19
 
 To run the app you need to: 
 <ul>
