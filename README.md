@@ -1,2 +1,12 @@
 # Intelligent-Geo-Locator
 This project was developed for the COE416 - Software Engineering
+
+To run the app you need to: 
+	-make sure python and java are running on your machine
+	-make sure you have the latest version of android studio  
+	-make sure all the used modules in run_keras_server.py are installed  
+	-change the ip address to the new ip address of your pc in run_keras_server.py
+	-python run_keras_server.py
+	-open the SEProject3 in android studio and run it.
+
+Please note that our version is being uploaded to google play to make the execution easier.
